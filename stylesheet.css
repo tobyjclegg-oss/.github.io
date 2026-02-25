@@ -1,0 +1,98 @@
+/* GENERAL PAGE STYLE */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf6f0;
+    color: #444;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #d8a7b1, #c48b98);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.date {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #c48b98;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #a06b78;
+}
+
+/* CONTENT SECTIONS */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #c48b98;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* DETAILS BOX */
+#details {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* RSVP BUTTON */
+button {
+    margin-top: 15px;
+    padding: 12px 28px;
+    font-size: 14px;
+    background-color: #c48b98;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #a06b78;
+    transform: scale(1.05);
+}
+
+/* RSVP MESSAGE */
+#message {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+}
